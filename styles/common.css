@@ -141,7 +141,7 @@ body {
 .main-logo {
     width: 180px;
     height: 50.24px;
-    background-image: url("../assets/pepsi-logo.png");
+    background-image: url("https://mirnu.github.io/test/assets/pepsi-logo.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -195,7 +195,7 @@ body {
     display: none;
     width: 35px;
     height: 35px;
-    background-image: url("../assets/hamburger.png");
+    background-image: url("https://mirnu.github.io/test/assets/hamburger.png");
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
