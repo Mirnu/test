@@ -9,12 +9,12 @@ export function initCookiePreferences() {
 
     const cookiePreferences = document.getElementById("cookie-preferences");
 
-    if (localStorage.getItem("isCookieAccepted") === "true") {
-        cookiePreferences.style.display = "none";
-    }
-
     if (!acceptCookieButton || !declineCookieButton || !cookiePreferences) {
         return;
+    }
+
+    if (localStorage.getItem("isCookieAccepted") === "true") {
+        cookiePreferences.style.display = "none";
     }
 
     const onClick = () => {
