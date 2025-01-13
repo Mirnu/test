@@ -5,6 +5,10 @@ export function initAgeVerification() {
 
     const ageVerification = document.getElementById("age-verification");
 
+    if (!ageVerification || !ageVerificationButton) {
+        return;
+    }
+
     if (localStorage.getItem("isAgeVerified") === "true") {
         ageVerification.style.display = "none";
     }
