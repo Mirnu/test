@@ -1,0 +1,27 @@
+@import "./common.css";
+
+.game-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game {
+    display: block;
+    width: 312.5px;
+    height: 146.5px;
+}
+
+@media (min-width: 650px) {
+    #game {
+        width: 625px;
+        height: 293px;
+    }
+}
+
+@media (min-width: 1000px) {
+    #game {
+        width: 1000px;
+        height: 450px;
+    }
+}
